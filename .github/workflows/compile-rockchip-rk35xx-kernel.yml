@@ -17,6 +17,7 @@ on:
         type: choice
         options:
           - LeeGartu/unifreq-linux-5.10.y-rk35xx
+          - LeeGartu/unifreq-linux-6.1.y-rockchip
           - unifreq/linux-5.10.y-rk35xx
           - unifreq/linux-6.1.y-rockchip
           - codesnas/linux-5.10.y-rk35xx
@@ -29,6 +30,7 @@ on:
         type: choice
         options:
           - 5.10.160
+          - 6.1.115
           - 5.10.y
           - 6.1.y
       kernel_auto:
